@@ -1,0 +1,30 @@
++------------------------+     +------------------------+
+|        Warehouse      |     |       Commodity       |
++------------------------+     +------------------------+
+| WarehouseID (PK)       |     | CommodityID (PK)       |
+| Address                |     | Height                 |
+| ContactNumber          |     | Weight                 |
+|                        |     | DeliveryDate           |
++------------------------+     | Destination            |
+         |                    | CustomerName           |
+         |                    +------------------------+
+         |
+         |
++------------------------+
+|        Vehicle         |
++------------------------+
+| VehicleNumber (PK)     |
+| Type                   |
+| Route                  |
+| Charges                |
++------------------------+
+         |
+         |
+         |
+         V
++------------------------+
+|       Customer         |
++------------------------+
+| CustomerID (PK)        |
+| CustomerName           |
++------------------------+

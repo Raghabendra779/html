@@ -1,0 +1,11 @@
+const Students = ['Tina','Ravi','Vivek'];
+
+for(let i=0; i<Students.length; i++){
+    console.log(`Roll No : ${i+1}: ${Students[i]}`);
+}
+
+
+
+
+
+
